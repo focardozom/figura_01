@@ -1,0 +1,96 @@
+/* css styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body {
+  font-family: 'Playfair Display', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', sans-serif;
+  color: #333;
+}
+
+.background-image {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.big-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  text-align: center;
+}
+
+.quote {
+  text-align: center;
+  font-size: 1.2rem;
+  font-style: italic;
+  margin: 2rem 0;
+}
+
+.blockquote-footer {
+  text-align: right;
+  font-size: 1rem;
+  font-style: normal;
+}
+
+h1.centered {
+  text-align: center;
+}
+
+h3.centered {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.section {
+  margin: 1.3rem 0;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.section-description {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+.team-member {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.team-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+
+.team-quote {
+  font-size: 1.1rem;
+  font-style: italic;
+  margin-top: 1rem;
+}
+
