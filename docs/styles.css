@@ -57,6 +57,11 @@ h3.centered {
   font-size: 1.3rem;
 }
 
+p.centered{  
+  text-align: center;
+  font-size: 1rem;
+}
+
 .section {
   margin: 1.3rem 0;
 }
