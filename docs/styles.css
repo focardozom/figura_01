@@ -1,10 +1,16 @@
 /* css styles */
 
+
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
+.navbar {
+  background-color: #AAD8AE;
+  color: white;
+}
 
 body {
   font-family: 'Playfair Display', sans-serif;
+  background-color: #E5E4DF;
   line-height: 1.6;
   margin: 0;
 }
