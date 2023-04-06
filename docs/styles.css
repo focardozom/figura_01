@@ -2,20 +2,24 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
 
 .navbar {
   background-color: #AAD8AE;
   color: white;
+  font-family: 'Playfair Display', sans-serif;
+}
 }
 
 body {
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   background-color: #E5E4DF;
   line-height: 1.6;
   margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4 {
   font-family: 'Playfair Display', sans-serif;
   color: #333;
 }
@@ -59,6 +63,10 @@ h1.centered {
   text-align: center;
 }
 
+h2.centered {
+  text-align: center;
+}
+
 h3.centered {
   text-align: center;
   font-size: 1.3rem;
@@ -72,6 +80,7 @@ h4.centered {
 p.centered{  
   text-align: center;
   font-size: 1rem;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .section {
