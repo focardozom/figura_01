@@ -196,6 +196,10 @@ html {
   height: 300px; /* Adjust the height as needed */
 }
 
+.banner1 {
+  background-color: #AAD8AE; /* Choose a different background color for the second banner */
+}
+
 .banner2 {
   background-color: #BEDEF5; /* Choose a different background color for the second banner */
 }
